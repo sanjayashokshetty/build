@@ -50,7 +50,7 @@ class App extends Component {
       <Router history={history}>
         <div >
         <ul className={classes.ulele}>
-          <Button className={classes.button} component={Link} to="/">
+          <Button className={classes.button} component={Link} to="/website">
           HOME
           </Button>
           <Button className={classes.button} component={Link} to="/skills">
@@ -65,8 +65,9 @@ class App extends Component {
           <Button className={classes.button} component={Link} to="/contact">
           CONTACT
           </Button>
-         </ul> 
+         </ul>
           <Route exact path="/" component={Home}/>
+          <Route path="/website" component={Home}/>
           <Route path="/skills" component={Skills}/>
           <Route path="/projects" component={Projects}/>
           <Route path="/resume" component={Resume}/>
