@@ -1,19 +1,44 @@
 import React from 'react';
+import '../w3css.css'
 function Projects(props){
 	return(
-		<div>
-		<h2>PROJECTS DONE</h2>
-		<h3>File_archiver:[python, data structures]</h3>
- 		<p>This provides the basic functionalities that git provides like editing the files and branch the repository. It saves space by using Persistent data structure i.e. making copies of the affected files. All operations are implements in log (n) time complexity. Persistent data structure is used implemented it using python.</p>
-		<h3>Restaurant_search:[java, sql server]</h3>
-  		<p>Provides user and admin login. Admin can login and add new restaurants to the database. User can login or signup and search for a restaurant using pin code or place and give review and check the reviews. Java, SQL and java swing is used.</p>
-		<h3>Tile_swipe game: [bash]</h3>
-    	<p>This is puzzle game user has the option to choose a matrix between 3 * 3 to 9 * 9.
-		 The numbers in the matrix will be in descending order and the last tile will be empty.
-		 User has to swipe the tiles and bring it to ascending order.</p> 
-		<h3>To_do_app_list mini project:[web app using react and JavaScript]</h3>
- 		<p>Creating a dynamic to do app list using Reactjs and JavaScript and realising the requirement of framework.</p>
-		<h4>Git repo:</h4> <a href="https://github.com/sanjayashokshetty">LINK TO PROJECTS REPOSITORY</a>
+		<div className="w3-light-grey">
+			<div class="w3-container w3-card w3-indigo">
+  				<h1>Projects</h1>
+				{/*projects*/}
+			</div>
+			<div className="w3-row w3-mobile">
+				<div className="w3-col w3-blue w3-card m6 l8 w3-margin" style={{"maxWidth":"400px"}}>
+					<h2 className="w3-margin">Face-Emotion-Detection</h2>
+					<p className="w3-margin">Its an API which recieves pictures and return the emotion using pretrain CNN network</p>
+					<a href="https://github.com/sanjayashokshetty" className="w3-button w3-round w3-white w3-margin w3-small">Github</a> 
+				</div>
+				<div className="w3-col w3-orange w3-card m6 l8 w3-margin" style={{"maxWidth":"400px"}}>
+					<h2 className="w3-margin">Propensity To Buy</h2>
+					<p className="w3-margin">Its pretrained model build using adaboost classifier which predicts whether a person will buy a specific product or not.</p>
+					<a href="https://github.com/sanjayashokshetty" className="w3-button w3-round w3-white w3-margin w3-small">Github</a> 
+				</div>
+				<div className="w3-col w3-yellow w3-card m6 l8 w3-margin" style={{"maxWidth":"400px"}}>
+					<h2 className="w3-margin">Query Answer Recommend</h2>
+					<p className="w3-margin">Trained model which uses cosine similarity to recommend answers to customer queries.</p>
+					<a href="https://github.com/sanjayashokshetty" className="w3-button w3-round w3-white w3-margin w3-small">Github</a> 
+				</div>
+				<div className="w3-col w3-purple w3-card m6 l8 w3-margin" style={{"maxWidth":"400px"}}>
+					<h2 className="w3-margin">Restaurant Search</h2>
+					<p className="w3-margin">Its a java and sql based project helps different users to search hotels,give and view rewiews.</p>
+					<a href="https://github.com/sanjayashokshetty" className="w3-button w3-round w3-white w3-margin w3-small">Github</a> 
+				</div>
+				<div className="w3-col w3-khaki w3-card m6 l8 w3-margin" style={{"maxWidth":"400px"}}>
+					<h2 className="w3-margin">File_archiver</h2>
+					<p className="w3-margin">This provides the basic functionalities that git provides like editing the files and branch the repository. It saves space by using Persistent data structure</p>
+					<a href="https://github.com/sanjayashokshetty" className="w3-button w3-round w3-white w3-margin w3-small">Github</a> 
+				</div>
+				<div className="w3-col w3-lime w3-card m6 l8 w3-margin" style={{"maxWidth":"400px"}}>
+					<h2 className="w3-margin">Personal Website</h2>
+					<p className="w3-margin">Built using Reactjs,html,w3css.</p>
+					<a href="https://github.com/sanjayashokshetty" className="w3-button w3-round w3-white w3-margin w3-small">Github</a> 
+				</div>
+			</div>
 		</div>
 	);
 }
