@@ -32,7 +32,6 @@ npm start
 
 * [Reactjs](https://reactjs.org/) - The web framework used
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
