@@ -37,14 +37,14 @@ class App extends Component {
     <Router history={history}>
       <div >
       <div className="w3-bar w3-black w3-large">
-        <a href="/" className="w3-bar-item w3-button" component={Link} to="/website">Home</a>
-        <a href="/projects" className="w3-bar-item w3-button" component={Link} to="/projects">Projects</a>
+        <a href="/website" className="w3-bar-item w3-button" >Home</a>
+        <a href="/website/projects" className="w3-bar-item w3-button" >Projects</a>
         <a href="/" className="w3-bar-item w3-button">Resume</a>
         <a href="/" className="w3-bar-item w3-button">Blog</a>
       </div>
-        <Route exact path="/" component={Home}/>
+        <Route exact path="/website" component={Home}/>
         <Route path="/website" component={Home}/>
-        <Route path="/projects" component={Projects}/>
+        <Route path="/website/projects" component={Projects}/>
       </div>
     </Router>
       <footer className="w3-container w3-black w3-center w3-margin-top">
