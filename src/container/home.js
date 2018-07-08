@@ -26,20 +26,20 @@ function Home(props){
 					</div>
 					</div>
 					<div className="w3-container">
-					<p><i className="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Data Analist and Web developer</p>
-					<p><i className="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Surathkal, Mangalore</p>
-					<p><i className="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>sanjayshetty2015@gmail.com</p>
-					<p><i className="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>9448518852</p>
+					<p><i className="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-deep-purple"></i>Data Analist and Web developer</p>
+					<p><i className="fa fa-home fa-fw w3-margin-right w3-large w3-text-deep-purple"></i>Surathkal, Mangalore</p>
+					<p><i className="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-deep-purple"></i>sanjayshetty2015@gmail.com</p>
+					<p><i className="fa fa-phone fa-fw w3-margin-right w3-large w3-text-deep-purple"></i>9448518852</p>
 					<hr/>
 
-					<p className="w3-large"><b><i className="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+					<p className="w3-large"><b><i className="fa fa-asterisk fa-fw w3-margin-right w3-text-deep-purple"></i>Skills</b></p>
 					<p>Machine Learning</p>
 					<div className="w3-light-grey w3-round-xlarge w3-small">
-						<div className="w3-container w3-center w3-round-xlarge w3-teal" style={{"width":"70%"}}>70%</div>
+						<div className="w3-container w3-center w3-round-xlarge w3-deep-purple" style={{"width":"70%"}}>70%</div>
 					</div>
 					<p>Web Development</p>
 					<div className="w3-light-grey w3-round-xlarge w3-small">
-						<div className="w3-container w3-center w3-round-xlarge w3-teal" style={{"width":"60%"}}>
+						<div className="w3-container w3-center w3-round-xlarge w3-deep-purple" style={{"width":"60%"}}>
 						<div className="w3-center w3-text-white">60%</div>
 						</div>
 					</div>
@@ -54,20 +54,20 @@ function Home(props){
 				<div className="w3-twothird">
 				
 				<div className="w3-container w3-card w3-white w3-margin-bottom">
-					<h2 className="w3-text-grey w3-padding-16"><i className="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+					<h2 className="w3-text-grey w3-padding-16"><i className="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-deep-purple"></i>Work Experience</h2>
 					<div className="w3-container">
 					<h5 className="w3-opacity"><b>Data Analyst at Perfios</b></h5>
-					<h6 className="w3-text-teal"><i className="fa fa-calendar fa-fw w3-margin-right"></i>May 15 2018 - July 4 2018</h6>
+					<h6 className="w3-text-deep-purple"><i className="fa fa-calendar fa-fw w3-margin-right"></i>May 15 2018 - July 4 2018</h6>
 					<p>Worked as Data Analyst during which I have completed a projects 'Propensity to Buy' and 'customer service recoomendation'</p>
 					<hr/>
 					</div>
 				</div>
 
 				<div className="w3-container w3-card w3-white">
-					<h2 className="w3-text-grey w3-padding-16"><i className="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+					<h2 className="w3-text-grey w3-padding-16"><i className="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-deep-purple"></i>Education</h2>
 					<div className="w3-container">
 					<h5 className="w3-opacity"><b>NITK Surathkal</b></h5>
-					<h6 className="w3-text-teal"><i className="fa fa-calendar fa-fw w3-margin-right"></i>2016 - Present</h6>
+					<h6 className="w3-text-deep-purple"><i className="fa fa-calendar fa-fw w3-margin-right"></i>2016 - Present</h6>
 					<p>Bachelor Degree</p><br/>
 					<p>Btech in Information Technology</p>
 					</div>
