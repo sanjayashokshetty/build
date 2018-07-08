@@ -81,7 +81,6 @@ function Home(props){
 			
 			{/* End Page Container */}
 			</div>
-
 		</div>
 	);
 }
